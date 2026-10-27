@@ -1,36 +1,95 @@
 ---
-layout: archive
-title: "Publications"
+layout: single
+title: "Selected Publications"
 permalink: /publications/
 author_profile: true
+description: "Selected articles, an MPH thesis, and conference abstracts by Uurtsaikh Baatarsuren."
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<p>
+  My publications span cardiometabolic health, infectious diseases, and health services research.
+  See <a href="https://scholar.google.com/citations?user=dha2U_UAAAAJ&amp;hl=en">Google Scholar</a>
+  for additional work.
+</p>
 
-{% include base_path %}
+<h2>Articles</h2>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<ol>
+  <li>
+    <p>
+      Davaadamdin O, Ganbat BE, <strong>Baatarsuren U</strong>, et al. (2025).
+      <a href="https://doi.org/10.1371/journal.pone.0337413">Diabetes management cascade in Ulaanbaatar, Mongolia.</a>
+      <em>PLOS ONE</em>, 20(12), e0337413.
+    </p>
+  </li>
+  <li>
+    <p>
+      Dashdorj NJ, Wirz OF, Röltgen K, et al. (2021).
+      <a href="https://doi.org/10.1016/j.chom.2021.11.004">Direct comparison of antibody responses to four SARS-CoV-2 vaccines in Mongolia.</a>
+      <em>Cell Host &amp; Microbe</em>, 29(12), 1738-1743.
+    </p>
+  </li>
+  <li>
+    <p>
+      Myanganbayar M, Boldbaatar K, Tuvdendarjaa K, et al. (2021).
+      <a href="https://doi.org/10.1093/eurheartj/suab052">May Measurement Month 2019: an analysis of blood pressure screening results from Ulaanbaatar, Mongolia.</a>
+      <em>European Heart Journal Supplements</em>, 23(Supplement B), B107-B109.
+    </p>
+  </li>
+  <li>
+    <p>
+      Potts H, <strong>Baatarsuren U</strong>, Myanganbayar M, et al. (2020).
+      <a href="https://doi.org/10.1111/jch.13784">Hypertension prevalence and control in Ulaanbaatar, Mongolia.</a>
+      <em>The Journal of Clinical Hypertension</em>, 22(1), 103-110.
+      <br><small>Shared first authorship: Potts, Baatarsuren, and Myanganbayar.</small>
+    </p>
+  </li>
+  <li>
+    <p>
+      Myanganbayar M, <strong>Baatarsuren U</strong>, Chen G, et al. (2019).
+      <a href="https://doi.org/10.1111/jch.13592">Hypertension knowledge, attitudes, and practices of nurses and physicians in primary care in Ulaanbaatar Mongolia.</a>
+      <em>The Journal of Clinical Hypertension</em>, 21(8), 1202-1209.
+    </p>
+  </li>
+  <li>
+    <p>
+      Myanganbayar M, <strong>Baatarsuren U</strong>, Chen G, et al. (2018).
+      <a href="https://doi.org/10.1111/jch.13320">Hypertension, knowledge, attitudes, and practices of primary care physicians in Ulaanbaatar, Mongolia.</a>
+      <em>The Journal of Clinical Hypertension</em>, 20(8), 1187-1192.
+    </p>
+  </li>
+  <li>
+    <p>
+      Campbell NRC, Dashdorj N, <strong>Baatarsuren U</strong>, et al. (2017).
+      <a href="https://doi.org/10.1111/jch.13079">Assessing healthcare professional knowledge, attitudes, and practices on hypertension management. Announcing a new World Hypertension League resource.</a>
+      <em>The Journal of Clinical Hypertension</em>, 19(9), 830-832.
+    </p>
+  </li>
+</ol>
 
+<h2>MPH thesis</h2>
 
+<p>
+  <strong>Baatarsuren U.</strong> (2024).
+  <a href="https://digital.lib.washington.edu/researchworks/bitstreams/b104ff3c-665a-43ad-ab60-926328e8013d/download">Association between Acculturation and Sodium to Potassium Ratio and Disparity in Trends by Race/Ethnicity in the U.S.: NHANES 2011-2020.</a>
+  Master of Public Health thesis, University of Washington.
+</p>
 
+<h2>Selected conference abstracts</h2>
+
+<ul>
+  <li>
+    <p>
+      <strong>Baatarsuren U</strong>, Myanganbayar M, Lkhagvajav Z, et al. (2024).
+      Spatial association between hypertension and air pollution in Ulaanbaatar, Mongolia.
+      <em>Journal of Hypertension</em>, 42(Supplement 3), e64-e65.
+    </p>
+  </li>
+  <li>
+    <p>
+      <strong>Baatarsuren U</strong>, Myanganbayar M, Tuvdendarjaa K, et al. (2018).
+      Medical adherence to anti-hypertensive medication among the hypertensive population in Ulaanbaatar, Mongolia; result from STEPS survey.
+      <em>Journal of Hypertension</em>, 36, e332-e333.
+    </p>
+  </li>
+</ul>
